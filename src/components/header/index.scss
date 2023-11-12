@@ -1,0 +1,54 @@
+.navbar{
+    padding-left: 90px;
+    padding-right: 35px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+
+    
+
+    ul{
+        display: flex;
+    }
+
+    li{
+        list-style-type: none;
+        padding-right: 55px;
+    }
+
+    .navsPage{
+        transition: 0.5s;
+    }
+    .navsPage:hover{
+        color: #74FAC0;
+        transition: 0.3s;
+        font-size: 20px;
+    }
+
+    .iconCSS{
+        font-size: 27px;
+        transition: 0.5s;
+
+        &:hover{
+            fill: #74FAC0;
+            transition: 0.5s;
+            transform: translateY(-5px)
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        &__sections li{
+            display: none;
+        }
+
+        &__icons{
+            justify-content: center;
+        }
+        .iconCSS{
+            width: 8vw;
+            height: 34px;
+        }
+    }
+}

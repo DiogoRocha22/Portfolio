@@ -1,0 +1,16 @@
+.projects{
+     &__button{
+        text-align: center;
+        margin-top: 20px;
+     }
+
+     @media screen and (max-width: 768px){
+         &{
+            h1{
+               font-size: 2em;
+            }
+         }
+     }
+
+
+}

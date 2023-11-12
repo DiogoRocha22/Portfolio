@@ -1,0 +1,60 @@
+#skills{
+    width: 100%;
+    background-color: #01091CBF;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+
+    p{
+        margin: 10px;
+    }
+
+    .skills__js{
+        &:hover{
+            box-shadow: 5px 7px rgba(208, 211, 30, 0.582);
+        }
+    }
+    .skills__html{
+        &:hover{
+            box-shadow: 5px 7px rgba(233, 88, 4, 0.788);
+        }
+    }
+    .skills__css{
+        &:hover{
+            box-shadow: 5px 7px rgba(0, 153, 255, 0.719);
+        }
+    }
+    .skills__react{
+        &:hover{
+            box-shadow: 5px 7px rgba(22, 22, 22, 0.733);
+        }
+    }
+    .skills__node{
+        &:hover{
+            box-shadow: 5px 7px rgba(226, 225, 225, 0.685);
+        }
+    }
+    
+    img{
+        margin: 30px;
+        transition: 1s;
+        width: 150px;
+        border-radius: 18px;
+
+        &:hover{
+            transform: translateY(-9px) translateX(-5px);
+            transition: 1s;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        &{
+            width: 75vw;
+
+            h1{
+                font-size: 2em;
+            }
+        }
+    }
+}

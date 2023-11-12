@@ -1,0 +1,60 @@
+.cards{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+
+
+    &__card{
+        width: 45%;
+        background-color: #01091CE5;
+        padding: 20px;
+        border-radius: 15px;
+        height: 200px;
+        display: flex;
+        word-wrap: break-word;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &__descript{
+            word-wrap: break-word;
+        }
+
+        .buttonB{
+           align-self: start;
+
+        }
+
+
+        
+
+        h3{
+            font-size: 25px;
+        }
+        p{
+            font-size: 20px;
+            margin-top: 18px;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        &{
+            display: flex;
+            flex-direction: column;
+            
+            img{
+                width: 80vw;
+            }
+
+            &__card{
+                width: 70vw;
+                padding-top: 20px;
+            } 
+            h3{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+}

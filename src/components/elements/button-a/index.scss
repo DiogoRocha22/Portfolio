@@ -1,0 +1,28 @@
+.buttonA{
+    color: #01091C;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    background-color: #74FAC0;
+    width: 300px;
+    padding: 12px;
+    margin-top: 30px;
+    margin-left: 10px;
+    transition: 0.9s;
+    cursor: pointer;
+
+    &:hover{
+        background:transparent;
+        transition: 0.5s;
+        color: #74FAC0;
+        transform: translateY(-7px);
+        border: 1px solid #74FAC0;
+    }
+
+    @media screen and (max-width: 768px){
+        &{
+            width: 80vw;
+        }
+    }
+}
